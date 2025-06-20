@@ -91,4 +91,4 @@ Contributions are what make the open-source community such an amazing place to l
 
 Shubham Shukla - [GitHub](https://github.com/ShubhamShuklaX)
 
-Project Link: [https://github.com/ShubhamShuklaX/react-job-portal.git](https://github.com/ShubhamShuklaX/Job-Portal.git)
+Project Link: [https://github.com/ShubhamShuklaX/Job-Portal.git](https://github.com/ShubhamShuklaX/Job-Portal.git)
