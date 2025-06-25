@@ -31,7 +31,7 @@ To get a local copy up and running follow these simple steps.
 
 1. Clone the repo:
    ```sh
-   git clone https://github.com/ShubhamShuklaX/Job-Portal.git
+   git clone https://github.com/ShubhamShuklaX/Job-Board.git
    ```
 2. Install NPM packages:
 
@@ -91,4 +91,4 @@ Contributions are what make the open-source community such an amazing place to l
 
 Shubham Shukla - [GitHub](https://github.com/ShubhamShuklaX)
 
-Project Link: [https://github.com/ShubhamShuklaX/Job-Portal.git](https://github.com/ShubhamShuklaX/Job-Portal.git)
+Project Link: [https://github.com/ShubhamShuklaX/Job-Board.git](https://github.com/ShubhamShuklaX/Job-Board.git)
