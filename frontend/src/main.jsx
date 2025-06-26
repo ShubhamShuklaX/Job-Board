@@ -2,6 +2,9 @@ import React, { createContext, useState } from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 
+// Debug: Check if environment variable is loading
+console.log("API URL:", import.meta.env.VITE_API_URL);
+
 export const Context = createContext({
   isAuthorized: false,
 });
