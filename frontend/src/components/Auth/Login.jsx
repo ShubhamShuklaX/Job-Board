@@ -6,8 +6,12 @@ import { FaRegUser } from "react-icons/fa";
 import axios from "axios";
 import toast from "react-hot-toast";
 import { Context } from "../../main";
+import { API_ENDPOINTS } from "../../config/api";
 
 const Login = () => {
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [role, setRole] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [role, setRole] = useState("");
@@ -18,7 +22,7 @@ const Login = () => {
     e.preventDefault();
     try {
       const { data } = await axios.post(
-        "http://localhost:4000/api/v1/user/login",
+        API_ENDPOINTS.LOGIN,
         { email, password, role },
         {
           headers: {
@@ -37,8 +41,8 @@ const Login = () => {
     }
   };
 
-  if(isAuthorized){
-    return <Navigate to={'/'}/>
+  if (isAuthorized) {
+    return <Navigate to={"/"} />;
   }
 
   return (
@@ -55,7 +59,7 @@ const Login = () => {
               <div>
                 <select value={role} onChange={(e) => setRole(e.target.value)}>
                   <option value="">Select Role</option>
-                  
+
                   <option value="Job Seeker">Job Seeker</option>
                   <option value="Employer">Employer</option>
                 </select>
